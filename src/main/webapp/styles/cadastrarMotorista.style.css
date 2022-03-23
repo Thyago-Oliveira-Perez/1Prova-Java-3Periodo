@@ -1,0 +1,32 @@
+@charset "ISO-8859-1";
+
+.campo_botoes{
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	width: 100%;
+}
+
+.botoes{
+	display: flex;
+	align-items: center;
+	height:40px;
+	background-color: #4CAF50;
+	border-radius: 6px;
+}
+
+a{
+	color: white;
+	text-decoration: none;
+}
+
+.botoes a {
+	margin: 0 10px 0 10px;
+}
+
+.botoes input{
+	color: white;
+	border: none;
+	margin: 0 10px 0 10px;
+	background-color: #4CAF50;
+}
